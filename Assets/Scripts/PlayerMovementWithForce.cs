@@ -33,4 +33,12 @@ public class PlayerMovementWithForce : MonoBehaviour
         // Применяем силу к Rigidbody
         rb.AddForce(direction * moveSpeed * Time.deltaTime);
     }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Bullet")
+            transform.localScale += new Vector3(0.2f, 0.2f, 0.2f);
+        
+        Destroy(other.gameObject);
+    }
 }
