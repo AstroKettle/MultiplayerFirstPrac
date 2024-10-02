@@ -1,0 +1,134 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2 (void);
+extern void GameManager_StartGame_mCC7B9221C1FF4EF1A9AEFA0613AC95B2DF3459D2 (void);
+extern void GameManager_SetupScreen_m122683402ADB003BD6FD159F605F37BDC52A1183 (void);
+extern void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (void);
+extern void GameManager_U3CStartU3Eb__7_0_m9D585B5A60A20B24DFF798E37BDA2088874B5792 (void);
+extern void GameManager_U3CStartU3Eb__7_1_m0D130929F449C9CFD196D28F8AF3ABDFA7869568 (void);
+extern void GameManager_U3CStartU3Eb__7_2_m573EEB3FBF9791CED746BF78A961470D5EB6A38A (void);
+extern void PlayerMovementWithForce_Start_mD472CBD2195F07A50C473CECEC196FF01DD705C5 (void);
+extern void PlayerMovementWithForce_Update_mA7706828EB246469A21898DBECF92D60590EB1E4 (void);
+extern void PlayerMovementWithForce_Move_m5369E6B2987119A177B6899602CD9AF157BAD693 (void);
+extern void PlayerMovementWithForce_OnTriggerEnter_m1A27ABA2E3D80E7577E97AAEB860AEB7608D882F (void);
+extern void PlayerMovementWithForce__ctor_m9BE3C38CC77C5E16A66421E111677F3F75B6AD36 (void);
+extern void PlayerMovementWithForce1_Start_mFBE6D0932368B30C76A6041786CA9CDA91CA40B6 (void);
+extern void PlayerMovementWithForce1_Update_mF33F27AF067F5E04B4EA266062C1D5C0B4BD7BCD (void);
+extern void PlayerMovementWithForce1_MoveArrows_mF0AD444A0F27385FCA8DA005C58382076928B946 (void);
+extern void PlayerMovementWithForce1_OnTriggerEnter_m110C8BEDD6B497CFF36C35BEBF156182A3B9315E (void);
+extern void PlayerMovementWithForce1__ctor_m9FED384CC7228E7838DD737641AD64E842CF0A45 (void);
+extern void PlayManager_Update_m18D8C5D814E7E770973039CF0D2A25842C31305E (void);
+extern void PlayManager__ctor_m60142907B05BD1814F90F152F07EE089A5C7D297 (void);
+extern void ProjectileSpawner_Start_mAFE5109B456DFDA62D19385660AE7DF4C9219738 (void);
+extern void ProjectileSpawner_SpawnProjectiles_mBC8BA5EC9CCDF319869F9F5F70E80EFD80427E11 (void);
+extern void ProjectileSpawner_SpawnProjectile_m8DBB31D82C01A3A9E2BF75580C73C573C2EA3B43 (void);
+extern void ProjectileSpawner__ctor_m33FAE05565EFBE3CC7ECE32EDDAC544707A0479B (void);
+extern void U3CSpawnProjectilesU3Ed__4__ctor_mE92FEF11FAB3BB0FF6E2ABAF77481C2979FEA14A (void);
+extern void U3CSpawnProjectilesU3Ed__4_System_IDisposable_Dispose_m20FD64749AC9F8D720CC7C8541307689E50133D8 (void);
+extern void U3CSpawnProjectilesU3Ed__4_MoveNext_m452B64824028C0E2F495A3BBAB5A43CDFF7D5D24 (void);
+extern void U3CSpawnProjectilesU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m13D5E7A457940FE3C8AD719D61B5D55190D66776 (void);
+extern void U3CSpawnProjectilesU3Ed__4_System_Collections_IEnumerator_Reset_m1EC8902ADDD7BFB273EB448E22CBC82ACA1558EF (void);
+extern void U3CSpawnProjectilesU3Ed__4_System_Collections_IEnumerator_get_Current_mE49F8FD99B37C69F3F35CF6E9697A74F71F21894 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[31] = 
+{
+	GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2,
+	GameManager_StartGame_mCC7B9221C1FF4EF1A9AEFA0613AC95B2DF3459D2,
+	GameManager_SetupScreen_m122683402ADB003BD6FD159F605F37BDC52A1183,
+	GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368,
+	GameManager_U3CStartU3Eb__7_0_m9D585B5A60A20B24DFF798E37BDA2088874B5792,
+	GameManager_U3CStartU3Eb__7_1_m0D130929F449C9CFD196D28F8AF3ABDFA7869568,
+	GameManager_U3CStartU3Eb__7_2_m573EEB3FBF9791CED746BF78A961470D5EB6A38A,
+	PlayerMovementWithForce_Start_mD472CBD2195F07A50C473CECEC196FF01DD705C5,
+	PlayerMovementWithForce_Update_mA7706828EB246469A21898DBECF92D60590EB1E4,
+	PlayerMovementWithForce_Move_m5369E6B2987119A177B6899602CD9AF157BAD693,
+	PlayerMovementWithForce_OnTriggerEnter_m1A27ABA2E3D80E7577E97AAEB860AEB7608D882F,
+	PlayerMovementWithForce__ctor_m9BE3C38CC77C5E16A66421E111677F3F75B6AD36,
+	PlayerMovementWithForce1_Start_mFBE6D0932368B30C76A6041786CA9CDA91CA40B6,
+	PlayerMovementWithForce1_Update_mF33F27AF067F5E04B4EA266062C1D5C0B4BD7BCD,
+	PlayerMovementWithForce1_MoveArrows_mF0AD444A0F27385FCA8DA005C58382076928B946,
+	PlayerMovementWithForce1_OnTriggerEnter_m110C8BEDD6B497CFF36C35BEBF156182A3B9315E,
+	PlayerMovementWithForce1__ctor_m9FED384CC7228E7838DD737641AD64E842CF0A45,
+	PlayManager_Update_m18D8C5D814E7E770973039CF0D2A25842C31305E,
+	PlayManager__ctor_m60142907B05BD1814F90F152F07EE089A5C7D297,
+	ProjectileSpawner_Start_mAFE5109B456DFDA62D19385660AE7DF4C9219738,
+	ProjectileSpawner_SpawnProjectiles_mBC8BA5EC9CCDF319869F9F5F70E80EFD80427E11,
+	ProjectileSpawner_SpawnProjectile_m8DBB31D82C01A3A9E2BF75580C73C573C2EA3B43,
+	ProjectileSpawner__ctor_m33FAE05565EFBE3CC7ECE32EDDAC544707A0479B,
+	U3CSpawnProjectilesU3Ed__4__ctor_mE92FEF11FAB3BB0FF6E2ABAF77481C2979FEA14A,
+	U3CSpawnProjectilesU3Ed__4_System_IDisposable_Dispose_m20FD64749AC9F8D720CC7C8541307689E50133D8,
+	U3CSpawnProjectilesU3Ed__4_MoveNext_m452B64824028C0E2F495A3BBAB5A43CDFF7D5D24,
+	U3CSpawnProjectilesU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m13D5E7A457940FE3C8AD719D61B5D55190D66776,
+	U3CSpawnProjectilesU3Ed__4_System_Collections_IEnumerator_Reset_m1EC8902ADDD7BFB273EB448E22CBC82ACA1558EF,
+	U3CSpawnProjectilesU3Ed__4_System_Collections_IEnumerator_get_Current_mE49F8FD99B37C69F3F35CF6E9697A74F71F21894,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[31] = 
+{
+	4435,
+	3547,
+	3547,
+	4435,
+	4435,
+	4435,
+	4435,
+	4435,
+	4435,
+	4435,
+	3572,
+	4435,
+	4435,
+	4435,
+	4435,
+	3572,
+	4435,
+	4435,
+	4435,
+	4435,
+	4337,
+	4435,
+	4435,
+	3547,
+	4435,
+	4262,
+	4337,
+	4435,
+	4337,
+	6382,
+	4435,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	31,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

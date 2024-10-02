@@ -5,7 +5,7 @@ public class PlayerMovementWithForce1 : MonoBehaviour
     public float moveSpeed = 5f; // Скорость движения
     private Rigidbody rb; // Ссылка на Rigidbody
     private float rotationSpeed = 80f;
-    private Vector3 BoomVector = new Vector3(3.0f, 3.0f, 3.0f);
+    public Vector3 BoomVector = new Vector3(3.0f, 3.0f, 3.0f);
     [SerializeField] private GameObject Camera;
 
     public float countOfPoints = 20f;

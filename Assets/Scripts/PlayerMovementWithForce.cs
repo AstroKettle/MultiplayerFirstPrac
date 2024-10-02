@@ -5,6 +5,7 @@ public class PlayerMovementWithForce : MonoBehaviour
     public float moveSpeed = 5f; // Скорость движения
     private Rigidbody rb; // Ссылка на Rigidbody
     private float rotationSpeed = 80f;
+    public Vector3 BoomVector = new Vector3(3.0f, 3.0f, 3.0f);
     [SerializeField] private GameObject Camera;
 
     private void Start()
@@ -15,6 +16,9 @@ public class PlayerMovementWithForce : MonoBehaviour
     private void Update()
     {
         Move();
+        if (transform.localScale == BoomVector) {
+            Destroy(this.gameObject);
+        }
     }
 
     private void Move()

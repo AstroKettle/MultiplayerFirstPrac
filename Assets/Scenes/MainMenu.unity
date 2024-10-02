@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 212848765}
   m_Layer: 0
   m_Name: Player2
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -157,6 +157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 500
+  BoomVector: {x: 3, y: 3, z: 3}
   Camera: {fileID: 1384948082}
   countOfPoints: 20
 --- !u!54 &212848766
@@ -1034,7 +1035,7 @@ GameObject:
   - component: {fileID: 661647206}
   m_Layer: 0
   m_Name: Player1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1052,6 +1053,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 500
+  BoomVector: {x: 3, y: 3, z: 3}
   Camera: {fileID: 1565025919}
 --- !u!54 &661647207
 Rigidbody:
@@ -1183,7 +1185,7 @@ GameObject:
   - component: {fileID: 790000027}
   m_Layer: 0
   m_Name: Player4
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1201,6 +1203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 500
+  BoomVector: {x: 3, y: 3, z: 3}
   Camera: {fileID: 405193275}
   countOfPoints: 20
 --- !u!54 &790000028
@@ -1454,7 +1457,7 @@ GameObject:
   - component: {fileID: 1174823429}
   m_Layer: 0
   m_Name: Player3
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1472,6 +1475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 500
+  BoomVector: {x: 3, y: 3, z: 3}
   Camera: {fileID: 488433703}
   countOfPoints: 20
 --- !u!54 &1174823430
