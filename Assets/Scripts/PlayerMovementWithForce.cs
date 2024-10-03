@@ -16,7 +16,7 @@ public class PlayerMovementWithForce : MonoBehaviour
     private void Update()
     {
         Move();
-        if (transform.localScale == BoomVector) {
+        if ((transform.localScale == BoomVector) || (transform.position.y < 0)) {
             Destroy(this.gameObject);
         }
     }

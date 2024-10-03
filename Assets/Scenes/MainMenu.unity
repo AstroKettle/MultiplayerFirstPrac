@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 212848768}
   - component: {fileID: 212848767}
   - component: {fileID: 212848766}
-  - component: {fileID: 212848765}
+  - component: {fileID: 212848771}
   m_Layer: 0
   m_Name: Player2
   m_TagString: Player
@@ -144,22 +144,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &212848765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 212848764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57310f9c99912a9488b9f30a72964553, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 500
-  BoomVector: {x: 3, y: 3, z: 3}
-  Camera: {fileID: 1384948082}
-  countOfPoints: 20
 --- !u!54 &212848766
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -274,6 +258,22 @@ Transform:
   - {fileID: 1384948085}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 360, z: 0}
+--- !u!114 &212848771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212848764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0162fcc4ab0181478b3a48f8cc33725, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 500
+  BoomVector: {x: 3, y: 3, z: 3}
+  Camera: {fileID: 1384948082}
+  countOfPoints: 20
 --- !u!1 &244308196
 GameObject:
   m_ObjectHideFlags: 0
@@ -1032,7 +1032,7 @@ GameObject:
   - component: {fileID: 661647209}
   - component: {fileID: 661647208}
   - component: {fileID: 661647207}
-  - component: {fileID: 661647206}
+  - component: {fileID: 661647212}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Player
@@ -1040,21 +1040,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &661647206
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 661647205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbf6c10a694940a458f3e91f974f4915, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 500
-  BoomVector: {x: 3, y: 3, z: 3}
-  Camera: {fileID: 1565025919}
 --- !u!54 &661647207
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1169,6 +1154,22 @@ Transform:
   - {fileID: 1565025922}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &661647212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661647205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57310f9c99912a9488b9f30a72964553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 500
+  BoomVector: {x: 3, y: 3, z: 3}
+  Camera: {fileID: 1565025919}
+  countOfPoints: 20
 --- !u!1 &790000026
 GameObject:
   m_ObjectHideFlags: 0
@@ -1182,7 +1183,7 @@ GameObject:
   - component: {fileID: 790000030}
   - component: {fileID: 790000029}
   - component: {fileID: 790000028}
-  - component: {fileID: 790000027}
+  - component: {fileID: 790000033}
   m_Layer: 0
   m_Name: Player4
   m_TagString: Player
@@ -1190,22 +1191,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &790000027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 790000026}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57310f9c99912a9488b9f30a72964553, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 500
-  BoomVector: {x: 3, y: 3, z: 3}
-  Camera: {fileID: 405193275}
-  countOfPoints: 20
 --- !u!54 &790000028
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1320,6 +1305,22 @@ Transform:
   - {fileID: 405193278}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 249.09, z: 0}
+--- !u!114 &790000033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790000026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3524302dbfe96fe409e061264df64a70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 500
+  BoomVector: {x: 3, y: 3, z: 3}
+  Camera: {fileID: 405193275}
+  countOfPoints: 20
 --- !u!1 &797803768
 GameObject:
   m_ObjectHideFlags: 0
@@ -1454,7 +1455,7 @@ GameObject:
   - component: {fileID: 1174823432}
   - component: {fileID: 1174823431}
   - component: {fileID: 1174823430}
-  - component: {fileID: 1174823429}
+  - component: {fileID: 1174823435}
   m_Layer: 0
   m_Name: Player3
   m_TagString: Player
@@ -1462,22 +1463,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1174823429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1174823428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57310f9c99912a9488b9f30a72964553, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 500
-  BoomVector: {x: 3, y: 3, z: 3}
-  Camera: {fileID: 488433703}
-  countOfPoints: 20
 --- !u!54 &1174823430
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1592,6 +1577,22 @@ Transform:
   - {fileID: 488433706}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 399.7, z: 0}
+--- !u!114 &1174823435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174823428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ce46302589aad848a6bf1229f107911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 500
+  BoomVector: {x: 3, y: 3, z: 3}
+  Camera: {fileID: 488433703}
+  countOfPoints: 20
 --- !u!1 &1196183866
 GameObject:
   m_ObjectHideFlags: 0

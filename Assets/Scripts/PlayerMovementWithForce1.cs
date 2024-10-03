@@ -18,7 +18,7 @@ public class PlayerMovementWithForce1 : MonoBehaviour
     {
         MoveArrows();
         
-        if (transform.localScale == BoomVector) {
+        if ((transform.localScale == BoomVector) || (transform.position.y < 0)) {
             Destroy(this.gameObject);
         }
     }
@@ -26,8 +26,8 @@ public class PlayerMovementWithForce1 : MonoBehaviour
     private void MoveArrows()
     {
         // Получаем ввод от клавиатуры
-        float moveHorizontal = Input.GetAxis("ArrowsHoriz"); // A и D
-        float moveVertical = Input.GetAxis("ArrowsVert"); // W и S
+        float moveHorizontal = Input.GetAxis("Horizontal"); // A и D
+        float moveVertical = Input.GetAxis("Vertical"); // W и S
 
         // Создаем вектор движения
         Vector3 direction = new Vector3(Camera.transform.forward.x,0,Camera.transform.forward.z) * moveVertical;

@@ -55,6 +55,9 @@
     <UnityVersion>2022.3.28f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\PlayerMovementWithForce2.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovementWithForce4.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovementWithForce3.cs" />
     <Compile Include="Assets\Scripts\ProjectileSpawner.cs" />
     <Compile Include="Assets\Scripts\PlayManager.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementWithForce.cs" />
