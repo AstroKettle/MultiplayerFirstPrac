@@ -19,6 +19,8 @@ public class PlayerMovementWithForce4 : MonoBehaviour
         MoveArrows();
         
         if ((transform.localScale == BoomVector) || (transform.position.y < 0)) {
+            GameObject.Find("Camera4").transform.SetParent(GameObject.Find("DeathParent").transform, false);
+            GameObject.Find("Camera4").GetComponent<Camera>().clearFlags = CameraClearFlags.SolidColor;
             Destroy(this.gameObject);
         }
     }

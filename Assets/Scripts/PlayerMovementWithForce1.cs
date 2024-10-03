@@ -19,7 +19,9 @@ public class PlayerMovementWithForce1 : MonoBehaviour
         MoveArrows();
         
         if ((transform.localScale == BoomVector) || (transform.position.y < 0)) {
-            Destroy(this.gameObject);
+            GameObject.Find("Camera1").transform.SetParent(GameObject.Find("DeathParent").transform, false);
+            GameObject.Find("Camera1").GetComponent<Camera>().clearFlags = CameraClearFlags.SolidColor;
+            Destroy(GameObject.Find("Player1"));
         }
     }
 

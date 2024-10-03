@@ -31,7 +31,10 @@ public class PlayManager : MonoBehaviour {
     {
         yield return new WaitForSeconds(time);
         // Загрузить следующую сцену
-        Destroy(players[0].gameObject);
+        if (players.Length !=0 ) {
+            Destroy(players[0].gameObject);
+        }
+        
         SceneManager.LoadScene("MainMenu");
     }
 }
