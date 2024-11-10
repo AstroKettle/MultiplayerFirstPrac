@@ -36,7 +36,8 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/Scenes/MainMenu.unity"
+              "Assets/Scenes/MainMenu.unity",
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -50,7 +51,8 @@
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/Scenes/MainMenu.unity"
+              "Assets/Scenes/MainMenu.unity",
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -187,7 +189,10 @@
           },
           {
             "name": "LightProbes",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/MainMenu.unity",
+              "Assets/Scenes/SampleScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -308,7 +313,8 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/Scenes/MainMenu.unity"
+              "Assets/Scenes/MainMenu.unity",
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -376,7 +382,8 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/Scenes/MainMenu.unity"
+              "Assets/Scenes/MainMenu.unity",
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -761,7 +768,8 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/MainMenu.unity"
+              "Assets/Scenes/MainMenu.unity",
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -804,7 +812,8 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/Scenes/MainMenu.unity"
+              "Assets/Scenes/MainMenu.unity",
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -818,7 +827,8 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/Scenes/MainMenu.unity"
+              "Assets/Scenes/MainMenu.unity",
+              "Assets/Scenes/SampleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null

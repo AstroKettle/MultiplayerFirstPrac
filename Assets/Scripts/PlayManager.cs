@@ -9,9 +9,11 @@ public class PlayManager : MonoBehaviour {
     public GameObject[] players;
     public GameObject winPanel;
     public TMP_Text winner;
+    
 
 
     public void Start() {
+        
         winPanel.SetActive(false);
     }
 
@@ -21,7 +23,21 @@ public class PlayManager : MonoBehaviour {
         if (players.Length == 1) {
             Debug.Log(players[0].name + " последний выживший");
             winPanel.SetActive(true);
-            winner.text = players[0].name + " is WIN";
+            switch(players[0].name) {
+                case "Player1":
+                    winner.text = "WHITE is WIN";
+                    break;
+                case "Player2":
+                    winner.text = "ORANGE is WIN";
+                    break;
+                case "Player3":
+                    winner.text = "RED is WIN";
+                    break;
+                case "Player4":
+                    winner.text = "GREEN is WIN";
+                    break;
+            }
+            
             
             StartCoroutine(LoadNextSceneAfterTime(5));
         }

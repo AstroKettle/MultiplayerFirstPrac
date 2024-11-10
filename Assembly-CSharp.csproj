@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\PlayerMovementWithForce.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementWithForce1.cs" />
+    <Compile Include="Assets\Scripts\BulletLife.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
